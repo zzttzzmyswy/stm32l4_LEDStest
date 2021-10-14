@@ -102,6 +102,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    HAL_GPIO_TogglePin(LEDR_GPIO_Port,LEDR_Pin);
+    
   }
   /* USER CODE END 3 */
 }
